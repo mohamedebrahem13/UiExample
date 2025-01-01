@@ -11,13 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.IntOffset
-import androidx.compose.ui.unit.dp
-import androidx.window.layout.WindowMetricsCalculator
 
 @Composable
 fun BottomNavigationBar(

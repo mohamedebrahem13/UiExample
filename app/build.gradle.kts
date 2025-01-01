@@ -46,8 +46,10 @@ dependencies {
     implementation(libs.datastore.preferences) // For Preferences DataStore
     // Dagger Hilt
     implementation(libs.dagger.hilt.android)
-    implementation(libs.androidx.window)
     kapt(libs.dagger.hilt.compiler)
+    implementation(libs.androidx.material3.window.size.android)
+    implementation(libs.androidx.window)
+
     implementation(libs.androidx.hilt.navigation.compose)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
